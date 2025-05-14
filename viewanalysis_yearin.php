@@ -113,43 +113,6 @@
                 <div class="mobile-menu-handle"></div>
                 <article class="content dashboard-page">
                     <section class="section">
-					<div class="row">
-						<div class="col-xl-8 history-col">
-							<div class="card sameheight-item" data-exclude="xs" id="dashboard-history">
-								<div class="card-header card-header-sm bordered">
-									<div class="header-block">
-										<h3 class="title">History</h3>
-									</div>
-								</div>
-								<div class="card-block">
-									<div class="tab-content">
-										<div role="tabpanel" class="tab-pane active fade show" id="visits">
-											<p class="title-description"> Number of unique visits last 30 days </p>
-												<div id="dashboard-visits-chart"></div>
-										</div>
-										<div role="tabpanel" class="tab-pane fade" id="downloads">
-											<p class="title-description"> Number of downloads last 30 days </p>
-											<div id="dashboard-downloads-chart"></div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-4">
-                                <div class="card sameheight-item sales-breakdown" data-exclude="xs,sm,lg">
-                                    <div class="card-header">
-                                        <div class="header-block">
-                                            <h3 class="title"> Sales breakdown </h3>
-                                        </div>
-                                    </div>
-                                    <div class="card-block">
-                                        <div class="dashboard-sales-breakdown-chart" id="dashboard-sales-breakdown-chart"></div>
-                                    </div>
-                                </div>
-                            </div>
-						</div>
-					</section>
-                    <section class="section">
 						<?php
 							include('config.php'); // Include your database connection file
 
